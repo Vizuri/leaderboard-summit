@@ -1,0 +1,200 @@
+{
+  "format": "browser-program-pre1",
+  "page": "app.html",
+  "manifest": [
+    {
+      "path": "230356929b4aa54bc2419c3d5a7021977f327d93.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/230356929b4aa54bc2419c3d5a7021977f327d93.js",
+      "size": 345223,
+      "hash": "230356929b4aa54bc2419c3d5a7021977f327d93"
+    },
+    {
+      "path": "4a97fd6fd88434de3f18239912e1ec2435e8eb63.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/4a97fd6fd88434de3f18239912e1ec2435e8eb63.css?meteor_css_resource=true",
+      "size": 128969,
+      "hash": "4a97fd6fd88434de3f18239912e1ec2435e8eb63"
+    },
+    {
+      "path": "packages/bootstrap/img/glyphicons-halflings.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/bootstrap/img/glyphicons-halflings.png",
+      "size": 12799,
+      "hash": "84f613631b07d4fe22acbab50e551c0fe04bd78b"
+    },
+    {
+      "path": "packages/bootstrap/img/glyphicons-halflings-white.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/bootstrap/img/glyphicons-halflings-white.png",
+      "size": 8777,
+      "hash": "a25c4705320fd63c33790e666872910e702b9bf6"
+    },
+    {
+      "path": "app/fonts/Corbel.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Corbel.ttf",
+      "size": 257880,
+      "hash": "517499472baff5217c5b4a7a81c0c6712721fd14"
+    },
+    {
+      "path": "app/fonts/CorbelBold.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/CorbelBold.ttf",
+      "size": 271620,
+      "hash": "d8f6eb3d7d37eb180dfb2c2cc74e8b1b3647bfe8"
+    },
+    {
+      "path": "app/fonts/CorbelBoldItalic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/CorbelBoldItalic.ttf",
+      "size": 276632,
+      "hash": "4fae392f7f9101f53bb5d894e6f35adb26ebd37d"
+    },
+    {
+      "path": "app/fonts/CorbelItalic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/CorbelItalic.ttf",
+      "size": 266280,
+      "hash": "b4e35d56d83a837f33218d5b932e3ebfb56ad769"
+    },
+    {
+      "path": "app/img/arcwrx.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/arcwrx.jpg",
+      "size": 8214,
+      "hash": "5ad2fedaa49f12fa53471f3948cc3d10b4f98e28"
+    },
+    {
+      "path": "app/img/aws-logo.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/aws-logo.jpg",
+      "size": 9950,
+      "hash": "1771cad0faf499583c4a019cab60866ff651f9cd"
+    },
+    {
+      "path": "app/img/azure.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/azure.jpg",
+      "size": 7020,
+      "hash": "1e33d9fc3438cc8d1a1d5d20414cf572b5a9c0af"
+    },
+    {
+      "path": "app/img/brandmark_footer.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/brandmark_footer.png",
+      "size": 5062,
+      "hash": "9ba394f26491249fbf1cfbcafa27008350a367bd"
+    },
+    {
+      "path": "app/img/digital-ocean.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/digital-ocean.jpg",
+      "size": 7170,
+      "hash": "3a2296209551fd6ecb173510d394a88efe39a4f5"
+    },
+    {
+      "path": "app/img/footer_bg2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/footer_bg2.png",
+      "size": 4083,
+      "hash": "abd049c9eb9d46f07b0ebb45e1ab808327ec74e9"
+    },
+    {
+      "path": "app/img/fullscreen.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/fullscreen.png",
+      "size": 671,
+      "hash": "83403ef94cd258ab9c5113c6b85959ef5d55c3cc"
+    },
+    {
+      "path": "app/img/gce-logo.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/gce-logo.jpg",
+      "size": 6695,
+      "hash": "ff6e4515d678e7fcda161a4f2831671b643af4fc"
+    },
+    {
+      "path": "app/img/header_bg.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/header_bg.png",
+      "size": 4812,
+      "hash": "52ef82c9b554f2f30a6833f7ce21c3b947d6f1c0"
+    },
+    {
+      "path": "app/img/logo.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/logo.png",
+      "size": 8282,
+      "hash": "b64d2d66da63e20e87696c4d0ea47c35ef8790db"
+    },
+    {
+      "path": "app/img/openshift.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/openshift.png",
+      "size": 2881,
+      "hash": "605638ad2bf96b35d0ee4377f074e2c5b71d6063"
+    },
+    {
+      "path": "app/img/rackspace.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/rackspace.jpg",
+      "size": 5741,
+      "hash": "00533df722f0ef64d33f200922029f1cb0eec2ce"
+    },
+    {
+      "path": "app/img/vizuri_background.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/vizuri_background.png",
+      "size": 283952,
+      "hash": "4b275fc3a5bdaaa21076e7fde3688d908fd3daec"
+    },
+    {
+      "path": "app.html",
+      "where": "internal",
+      "hash": "bd38e3c79fca00bb9be1330c334d9be357239971"
+    }
+  ]
+}
