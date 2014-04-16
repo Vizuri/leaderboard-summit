@@ -13,11 +13,11 @@ This example uses a modified version of the Meteor example application (leaderbo
 4. Copy this value somewhere helpful and replace placeholders with your database user credentials.
 
 ## Configure your OpenShift gear 
-We will use a base NodeJS (node 0.10) cartridge. The name of our application in this example is "myapp". 
+We will use a base NodeJS (node 0.10) cartridge. The name of our application in this example is "vote". 
 
      rhc app create vote nodejs-0.6 --from-code=https://github.com/ichristo/leaderboard-summit.git
      #see quota:
-     rhc show-app myapp --gears quota
+     rhc show-app vote --gears quota
 
 ## Create a MongoLab URL Env Variable
 Fortunately, the rhc client allows you to configure your environment variable without placing credentials in a repository (see [Custom Environment Variables](https://www.openshift.com/blogs/new-online-features-for-september-2013) for more information). Use the following commands configure your production URI and restart your app.
