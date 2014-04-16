@@ -1,7 +1,7 @@
 #Meteor.js on OpenShift, with custom version of NodeJS
 Deploy [meteor.js](http://meteor.com/) application bundles on [OpenShift](http://openshift.com/)
 
-This example uses a modified version of the Meteor example application (leaderboard) with a custom version of NodeJS ready for deploy to Openshift.
+This example uses a modified version of the Meteor example application (leaderboard) with a custom version of NodeJS ready for deploy to Openshift.  It is a modified version of the Vladka's project here - https://github.com/vladka/openshift-meteor-leaderboard-customNode
 
 ## Create a MongoDB Instance at MongoLab
 1. Sign up for an account at [http://www.mongolab.com](http://www.mongolab.com). When successful, a database landing page with no databases displays.
