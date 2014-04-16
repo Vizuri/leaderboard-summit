@@ -15,7 +15,7 @@ This example uses a modified version of the Meteor example application (leaderbo
 ## Configure your OpenShift gear 
 We will use a base NodeJS (node 0.10) cartridge. The name of our application in this example is "myapp". 
 
-     rhc app create myapp nodejs-0.6 --from-code=https://github.com/ichristo/leaderboard-summit.git
+     rhc app create vote nodejs-0.6 --from-code=https://github.com/ichristo/leaderboard-summit.git
      #see quota:
      rhc show-app myapp --gears quota
 
@@ -31,14 +31,14 @@ The above command will output a local copy of your OpenShift application source 
 
 That's it! Check out your new Meteor.js application at:
 
-    http://myapp-$yournamespace.rhcloud.com
+    http://vote-$yournamespace.rhcloud.com
 
 ## Change version of nodeJS
  Example above uses node version 0.10.24. 
  You can change it anywhere by changing file 
  on the path: 
 
-    myapp/.openshift/markers/NODEJS_VERSION 
+    vote/.openshift/markers/NODEJS_VERSION 
 
 then don't forgot to push changes to openshift 
    
@@ -46,17 +46,4 @@ then don't forgot to push changes to openshift
     git commit -am "any message"
     git push
 
-## Switch from 'Demo app (leaderboard) to your real application'
-
-    In my case :
-    1) I have used 'demeteorizer' (see article http://blog.modulus.io/demeteorizer)
-    2) then I have copied 'demeteorized' content to myapp, except file package.json.
-    3) Package.json file I have manually "merged" (there are dependencies, which you must keep from your application)
-    4) git add, commit, push
-    5) see your output: 
-    
-    rhc tail myapp
-
-    6) if you see errors, if some dependency is missing: 
-      add it to 'Package.json' and go to step 4)
 
