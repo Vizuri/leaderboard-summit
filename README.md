@@ -13,9 +13,9 @@ This example uses a modified version of the Meteor example application (leaderbo
 4. Copy this value somewhere helpful and replace placeholders with your database user credentials.
 
 ## Configure your OpenShift gear 
-We will use a base NodeJS (node 0.10) cartridge. The name of our application in this example is "vote". 
+We will use a base NodeJS (node 0.6) cartridge. The name of our application in this example is "vote". 
 
-     rhc app create vote nodejs-0.10 --from-code=https://github.com/ichristo/leaderboard-summit.git
+     rhc app create vote nodejs-0.6 --from-code=https://github.com/ichristo/leaderboard-summit.git
 
 The above command will output a local copy of your OpenShift application source in a folder matching your application name.  Be sure to run this command from within a folder where you would like to keep your project source.
 
